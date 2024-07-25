@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1500px;
+    width: 90%;
+    margin: 0 auto;
+}
+.mainBanner{
+    background-image: url(../img/running.jpg);
+    background-size: cover;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+ul li a{
+    padding: 10px 20px;
+    display:  block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+ul li:hover ul{
+  
+    display: block;
+}
+ul li ul{
+  
+    display: none;
+    position: absolute;
+    background: #192b37;
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 160px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 120px;
+}
+.mainBannercontent p{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.mainBannercontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+.button{
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #3954d9;
+        color: #ffffff;
+        border-radius: 100px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        width: 90px;
+        display: block;
+}
+header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #192b37;
+    opacity: 0.9;
+}
+.left-header{
+    display:flex;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.socialMedia{
+   padding-right: 20px;
+}
+.shipping{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 110px 0;
+}
+.button2{
+    text-decoration: none;
+}
+.shippingType h3 {
+    color: #0d2e57;
+    padding-top: 25px;
+}
+main{
+    margin-top: -75px !important;
+    background: #ffffff;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.phantomContent{
+    background-color: #f2f0f0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phantomContent h4{
+    color: #616161;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 15px;
+}
+.phantomContent h3{
+    color: #0d2e57;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+}
+.phantomContent p{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.phantomContent .price{
+    padding-bottom: 50px;
+}
+.sideBanner{
+    width: 50%;
+}
+.sideBanner img{
+    width: 700px;
+}
+.phantom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nprice{
+    color: #3954d9;
+}
+.oprice{
+    color: #000000;
+    font-size: smaller;
+    text-decoration: line-through;
+}
+.newArrival ul li h3{
+    color: #0d2e57;
+    font-family: 'Montserrat', sans-serif;
+}
+.newArrival{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/** goggles section starts**/
+.menShoes{
+    width: 25%;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.menShoes h3{
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 65px;
+    padding-left: 30px;
+}
+.menShoes p{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+.menShoes .button{
+    width: 100px;
+    margin-bottom: 65px;
+}
+.middle{
+    width: 25%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.middle img{
+    margin-left: 30px;
+}
+.middle h3{
+    color: #0d2e57;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.middle p{
+    padding-left: 30px;
+}
+.rightBanner{
+    background-image: url(../img/girlBanner.jpg);
+    background-size: cover;
+    width: 50%;
+    padding: 54px 0;
+}
+.rightBanner h3{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    padding-left: 40px;
+}
+.rightBanner .button{
+    background-color: #65cbff;
+    margin-left: 40px;
+}
+.goggles{
+    display: flex;
+    
+}
+/** goggles section ends **/
+/** trending section starts**/
+.trending ul li{
+    width: calc(25% - 20px);
+    margin: 0 10px 20px;
+}
+.trending ul li a{
+    padding: 0;
+}
+.trending .button2{
+    padding-left: 48%;
+}
+/** trending section ends**/
+/** activities section starts **/
+.activities ul{
+    display: flex;
+    flex-wrap:wrap;
+}
+.activities ul li{
+    width: 25%;
+    margin: 0;
+}
+.activities ul li img{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+/** activities section ends **/
+/** brandLogo section starts **/
+.brandLogo ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.brandLogo ul li{
+    width: 16.55%;
+    margin: 0;
+    border: #c7c7c7 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brandLogo ul li img{
+    padding: 72px;
+}
+/**brandLogo section ends**/
+/** main ends **/
+/** footer stars **/
+footer{
+    background-color: #000000;
+    background-size: cover;
+    margin-top: -82px;
+}
+.shops h3{
+    color: #2c3978;
+    padding-left: 20px;
+    font-size: 25px;
+    padding-top: 105px;
+    padding-bottom: 50px;
+}
+.shops ul{
+    display: flex;
+    flex-direction: column;
+}
+.information h3{
+    color: #2c3978;
+    padding-left: 20px;
+    font-size: 25px;
+    padding-top: 105px;
+    padding-bottom: 50px;
+}
+.information ul{
+    display: flex;
+    flex-direction: column;
+}
+.customerService h3{
+    color: #2c3978;
+    padding-left: 20px;
+    font-size: 25px;
+    padding-top: 105px;
+    padding-bottom: 50px;
+}
+.customerService ul{
+    display: flex;
+    flex-direction: column;
+}
+.stayConnected h3{
+    color: #2c3978;
+    padding-left: 20px;
+    font-size: 25px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.stayConnected ul li a{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    max-width: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.stayConnected ul li{
+    padding: 0 20px;
+}
+.stayConnected ul{
+    justify-content: left;
+}
+.signUp h3{
+    color: #2c3978;
+    padding-left: 20px;
+    font-size: 25px;
+    padding-top: 105px;
+    padding-bottom: 50px;
+}
+input::-webkit-input-placeholder { /* Edge */
+    color: #ffffff;
+  }
+  
+input:-ms-input-placeholder { /* Internet Explorer */
+    color: #ffffff;
+  }
+  
+input::placeholder {
+    color: #ffffff;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.signUp input{
+    margin-left: 20px;
+    width: 280px;
+    background-color: #535353;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px;
+}
+.signUp a{
+    margin-left: 20px;
+}
+.bottom p{
+    color: #535353;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: #535353 1px solid;
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+/** footer ends **/
